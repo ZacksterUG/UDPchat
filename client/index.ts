@@ -2,9 +2,6 @@ import { ClientChat } from "./source/ClientChat";
 import { app, BrowserWindow } from 'electron';
 import path from 'path';
 
-const clientChat = new ClientChat("Zackster");
-clientChat.startReceiving(200);
-
 app.whenReady().then(() => {
     const win = new BrowserWindow({
         show: false,
