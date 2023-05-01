@@ -1,7 +1,6 @@
 const Messages = [];
 
 const auth = () => {
-    const data = Api.getValue();
     document.getElementById("chat").hidden = false;
     document.getElementById("auth").hidden = true;
     const nickname = document.getElementById("nickname").value;
